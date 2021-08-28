@@ -34,7 +34,7 @@ const Content = styled.div`
 `;
 
 const Section = styled.section`
-  min-height: 50px;
+  min-height: 20px;
   padding: 16px 0;
   box-sizing: content-box;
   text-align: center;
