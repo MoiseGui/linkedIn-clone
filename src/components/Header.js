@@ -127,6 +127,9 @@ const Content = styled.div`
 const Logo = styled.span`
     margin-right: 8px;
     font-size: 0px;
+    @media (max-width: 768px) {
+      margin: 5px;
+    }
 `;
 
 const Search = styled.div`
@@ -135,6 +138,9 @@ const Search = styled.div`
   position: relative;
   & > div {
     max-width: 280px;
+    @media (max-width: 768px) {
+      max-width: 100%;
+    }
     input {
       border: none;
       box-shadow: none;
@@ -149,6 +155,9 @@ const Search = styled.div`
       height: 34px;
       border-color: #dce6f1;
       vertical-align: text-top;
+      @media (max-width: 768px) {
+        width: 100%;
+      }
     }
   }
 `;
