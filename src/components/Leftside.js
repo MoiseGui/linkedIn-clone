@@ -18,6 +18,20 @@ function Leftside({ user }) {
         <Widget>
           <a>
             <div>
+              <span>Who viewed your profile</span>
+            </div>
+            <p>298</p>
+          </a>
+          <a>
+            <div>
+              <span>Views of your post</span>
+            </div>
+            <p>7899</p>
+          </a>
+        </Widget>
+        <Widget>
+          <a>
+            <div>
               <span>Connections</span>
               <span>Grow your network</span>
             </div>
@@ -61,6 +75,9 @@ export default connect(mapStateToProps)(Leftside);
 
 const Container = styled.div`
     grid-area: leftside;
+    a {
+      cursor: pointer;
+    }
 `;
 
 const ArtCard = styled.div`
@@ -152,6 +169,10 @@ const Widget = styled.div`
           color: rgba(0, 0, 0, 1);
         }
       }
+    }
+    p {
+      font-size: 12px;
+      color: #0a66c2;
     }
   }
   svg {

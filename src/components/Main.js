@@ -43,19 +43,27 @@ function Main({ loading, user, getArticles, articles }) {
                     >Start a post</button>
                 </div>
                 <div>
-                    <button>
+                    <button
+                        onClick={handleShowModalClick}
+                        disabled={loading}>
                         <img src="/images/photo-icon.svg" alt="" />
                         <span>Photo</span>
                     </button>
-                    <button>
+                    <button
+                        onClick={handleShowModalClick}
+                        disabled={loading}>
                         <img src="/images/video-icon.svg" alt="" />
                         <span>Video</span>
                     </button>
-                    <button>
+                    <button
+                        onClick={handleShowModalClick}
+                        disabled={loading}>
                         <img src="/images/event-icon.svg" alt="" />
                         <span>Post</span>
                     </button>
-                    <button>
+                    <button
+                        onClick={handleShowModalClick}
+                        disabled={loading}>
                         <img src="/images/article-icon.svg" alt="" />
                         <span>Write Article</span>
                     </button>
@@ -198,7 +206,7 @@ const ShareBox = styled(CommonCard)`
                 border-radius: 50%;
                 margin-right: 10px;
             }
-            button{
+            button {
                 margin: 4px 0;
                 flex-grow: 1;
                 border-radius: 35px;
@@ -218,12 +226,18 @@ const ShareBox = styled(CommonCard)`
 
             button {
                 cursor: pointer;
+                padding: 0px 10px 0px 10px;
+                border-radius: 15px;
                 img {
                     margin: 0 4px 0 -2px;
                 }
                 span {
                     color: #7E7E7E;
                     font-weight: 500;
+                }
+
+                &:hover {
+                    background-color: #F5F5F5;
                 }
 
                 &:nth-child(1) {
