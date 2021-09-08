@@ -1,5 +1,14 @@
 # Getting Started with Create React App
 
+<p align="center">
+    <a href="https://github.com/MoiseGui/linkedin-clone/issues">
+      <img alt="Issues" src="https://img.shields.io/github/issues/MoiseGui/linkedin-clone?color=0088ff" />
+    </a>
+    <a href="https://github.com/MoiseGui/linkedin-clone/pulls">
+      <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/MoiseGui/linkedin-clone?color=0088ff" />
+    </a>
+  </p>
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
