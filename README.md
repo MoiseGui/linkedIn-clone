@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# LinkedIn Clone
 
 <p align="center">
     <a href="https://github.com/MoiseGui/linkedin-clone/issues">
@@ -9,9 +9,9 @@
     </a>
   </p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a linkedIn clone with reactJs and Firebase. [Click here for Demo](https://linkedin.moisegui.com).
 
-## Available Scripts
+## Getting started
 
 In the project directory, you can run:
 
